@@ -7,9 +7,8 @@ import (
 
 func main() {
 	config := &socks5.Config{
-		Username: "user",
-		Password: "pass",
-		Port:     1080,
+		IP:   "127.0.0.1",
+		Port: 1080,
 	}
 
 	server := socks5.NewServer(config)

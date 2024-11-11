@@ -1,7 +1,6 @@
 package socks5
 
 import (
-	"fmt"
 	"github.com/fatih/color"
 )
 
